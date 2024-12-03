@@ -36,5 +36,5 @@ Feel free to connect with me if you're interested in tech innovations, research 
 I’m a fan of pushing boundaries—whether it’s in the lab or trying out new software frameworks.
 
 ## 🤝 Connect with Me
-- [LinkedIn](https://www.linkedin.com/in/soubhik_baral)
+- [LinkedIn](https://www.linkedin.com/soubhik_baral)
 - [Website](https://repells.com)
