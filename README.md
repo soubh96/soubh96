@@ -21,7 +21,7 @@ Feel free to connect with me if you're interested in LLM safety gateways, multi-
 ## 🚀 Recent & Active Projects
 
 ### 🛡️ Rakshak.GenAI `Enterprise LLM Security & Orchestration Gateway`
-*   **Description:** A zero-trust, multi-layered security perimeter and gateway designed to intercept, sanitize, and optimize bidirectional telemetry between client layers and hosted LLMs. Modeled from the structural design specification **Rakshak.AI_ARCHI_v3.0.drawio.jpg**.
+*   **Description:** A zero-trust, multi-layered security perimeter and gateway designed to intercept, sanitize, and optimize bidirectional telemetry between client layers and hosted LLMs. Modeled from the structural design specification 
 *   **Architecture & Workflow:** Engineered over an 8-step bidirectional execution lifecycle utilizing a clear separation of planes:
     *   **Secure API Gateway Layer:** Hardened entry point handling Rate Limiting, Load Balancing, and token validation intersecting with an isolated Identity & Access Management (IAM) Layer (STS, Federation, and SSO).
     *   **Security Enforcement Layer:** The core engine governing data states via custom Policy, Decision, and Rule engines. Enforces **Input Security** (Prompt Guard, Content Filters, Schema Validation), **AI Analysis** (Semantic/Behavioral checks and Risk Scoring), and **Output Security** (DLP pipelines, Toxicity Checks, Fact Verification, and Privacy Masking to eliminate PII/secret leaks).
