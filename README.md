@@ -2,13 +2,13 @@
 
 ## 👨‍💻 About Me
 
-Hello! I'm **Soubhik Baral**, a scientist at **Central Research Laboratory (CRL-BEL)**, specializing in **embedded systems**, **networking**, **AI security**, and **distributed software architecture**. 
+Hello! I'm **Soubhik Baral**, a scientist at **Central Research Laboratory (CRL-BEL)**, specializing in **embedded systems**, **network security**, **Generative AI Security (GenAIsec)**, and **distributed software architecture**. 
 
-My core research and development focus centers on building robust security frameworks for Generative AI, engineering intelligent multi-agent workflows via LangGraph, and implementing low-level networking integrations. I am passionate about bridging the gap between hardware/system design and cutting-edge artificial intelligence, ensuring that emerging systems remain secure, private, and resilient.
+My core research and engineering framework centers on securing **Large Language Models (LLMs)**, architecting intelligent **multi-agent state machines** via LangGraph, and deploying optimized **Model Context Protocol (MCP)** integrations. I am passionate about **hardware-software co-design**—bridging the gap between low-level system design, secure edge computing, and cutting-edge artificial intelligence to ensure that emerging enterprise systems remain entirely secure, private, and resilient under a strict **Zero-Trust** model.
 
-When I'm not in the lab, I enjoy **playing football**, which helps me refresh my mind and balance the mental rigor of research with physical activity. Whether it's optimization of automated policy engines or enjoying a quick match with friends, I strive to keep a healthy balance between work and play.
+When I'm not in the lab designing automated policy enforcement engines or debugging network stacks, I enjoy **playing football** to balance the mental rigor of research with physical activity. Whether it's optimizing real-time LLM runtime defenses or enjoying a fast-paced match with friends, I strive to keep a healthy balance between work and play.
 
-Feel free to connect with me if you're interested in AI security, multi-agent frameworks, embedded systems, or just a fun football chat!
+Feel free to connect with me if you're interested in LLM safety gateways, agentic orchestration workflows, embedded Linux systems, or just a fun football chat!
 
 ---
 
