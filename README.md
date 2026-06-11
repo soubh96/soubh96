@@ -1,40 +1,62 @@
 # नमस्ते (Namaste) 🙏🏻, I'm Soubhik Baral!
 
-
 ## 👨‍💻 About Me
 
-Hello! I'm **Soubhik Baral**, a scientist at **Central Research Laboratory (CRL-BEL)**, specializing in **embedded systems**, **networking**, and **software development**. I have a deep interest in developing innovative solutions for real-world challenges, particularly in IoT and wireless communication.
+Hello! I'm **Soubhik Baral**, a scientist at **Central Research Laboratory (CRL-BEL)**, specializing in **embedded systems**, **networking**, **AI security**, and **distributed software architecture**. 
 
-When I'm not working on projects, I enjoy **playing football**, which helps me refresh my mind and stay energized. It's my way of balancing the mental rigor of research with physical activity, helping me stay focused and motivated. Whether it's diving into the latest tech trends or enjoying a quick football match with friends, I strive to keep a healthy balance between work and play.
+My core research and development focus centers on building robust security frameworks for Generative AI, engineering intelligent multi-agent workflows via LangGraph, and implementing low-level networking integrations. I am passionate about bridging the gap between hardware/system design and cutting-edge artificial intelligence, ensuring that emerging systems remain secure, private, and resilient.
 
-Feel free to connect with me if you're interested in tech innovations, research collaborations, or just a fun football chat!
+When I'm not in the lab, I enjoy **playing football**, which helps me refresh my mind and balance the mental rigor of research with physical activity. Whether it's optimization of automated policy engines or enjoying a quick match with friends, I strive to keep a healthy balance between work and play.
 
+Feel free to connect with me if you're interested in AI security, multi-agent frameworks, embedded systems, or just a fun football chat!
+
+---
+
+## 🚀 Recent & Active Projects
+
+### 🛡️ Rakshak.GenAI (Enterprise LLM Security & Orchestration Gateway)
+* **Description:** A zero-trust, multi-layered security perimeter and gateway designed to intercept, sanitize, and optimize bidirectional telemetry between client layers and hosted LLMs. Modeled from the structural design specification **Rakshak.AI_ARCHI_v3.0.drawio.jpg**.
+* **Architecture & Workflow:** Engineered over an 8-step bidirectional execution lifecycle utilizing a clear separation of planes:
+    * **Secure API Gateway Layer:** Hardened entry point handling Rate Limiting, Load Balancing, and token validation intersecting with an isolated Identity & Access Management (IAM) Layer (STS, Federation, and SSO).
+    * **Security Enforcement Layer:** The core engine governing data states via custom Policy, Decision, and Rule engines. Enforces **Input Security** (Prompt Guard, Content Filters, Schema Validation), **AI Analysis** (Semantic/Behavioral checks and Risk Scoring), and **Output Security** (DLP pipelines, Toxicity Checks, Fact Verification, and Privacy Masking to eliminate PII/secret leaks).
+    * **Unified Orchestration Layer:** Decouples core logic from hardware with an abstract Model Proxy, dynamic Context/Cost-aware Model Router, and standardized Request Formatter interfacing safely with local, cloud, or enterprise LLM instances.
+* **Tech Stack:** Source-compiled reverse proxies & API gateways, Python, custom Policy Engines, JWT authentication systems, Docker, Redis, and asynchronous Log Aggregators for observability.
+
+### 🔒 Agentic Code Reviewer (Multi-Agent Code Security Tool)
+* **Description:** An entirely local, privacy-preserving AI code security platform that automates static analysis, vulnerability detection, style checking, and code repair loops.
+* **Architecture & Workflow:** Orchestrated a **5-agent LangGraph State Machine** (Security, Style, Fix, Compiler, and Reporter). Features a unique, automated **Compiler Validation Loop** that tests code compilation (supporting Python, JS/TS, Java, and Go) and auto-retries fixes up to three times upon failure.
+* **Key Focus Areas:** Local LLM optimization using large-scale weights, containerized sandboxed execution, real-time telemetry tracing, and automated PDF/HTML compilation report metrics generation.
+* **Tech Stack:** LangChain/LangGraph, Ollama (Qwen 30B/Llama 3.2), Streamlit, Docker & Docker Compose, LangSmith, ReportLab.
+
+### 🤖 Conversational Attendance System (Agentic MCP Integration)
+* **Description:** Formulating and documenting a hybrid AI agent system that bridges local language models directly to structured enterprise backends.
+* **Key Focus Areas:** Orchestration and tool detection logic via the **Model Context Protocol (MCP)**, connecting automated FastMCP tools to a multi-threaded PostgreSQL driver for tracking employee attendance and processing complex operational data.
+* **Tech Stack:** Ollama, FastMCP, Streamlit, PostgreSQL, Python.
+
+---
 
 ## 🛠️ Languages & Technologies
 
-| **Category**                     | **Technologies**                                                                 |
-|-----------------------------------|----------------------------------------------------------------------------------|
-| **Languages**                     | C, C++, Python, Dart                                                             |
-| **Embedded Systems**              | IoT devices, Sensor networks, LoRa gateway development, Raspberry Pi, BeagleBoard |
-| **Networking**                    | TCP/IP, HTTP/HTTPS, LoRaWAN, SDN, OpenFlow, Networking protocols                  |
-| **Databases**                     | MySQL, PostgreSQL, SQLite                                                        |
-| **Cloud & Services**              | Magma (Cloud-Native Wireless Networking), Firebase, GCP, Azure                   |
-| **Service Management & Automation**| Development and management of systemd services for automation, monitoring, and process management in Linux-based environments |
-| **Web Frameworks**                | Flask, FastAPI                                                                  |
-| **Containerization & Virtualization** | Docker, Docker Compose                                                          |
-| **Frontend Development**          | Flutter (UI/UX), Svelte                                                          |
-| **Version Control**               | Git, GitHub                                                                     |
-| **CI/CD & DevOps**                | Docker CI/CD pipelines, Continuous Integration with Docker and Flask             |
-| **System Design & Architecture**  | Design and architecture of scalable systems, Microservices, Distributed Systems |
-| **Messaging & Data Handling**     | JSON data handling, Message Queues, API data integration                                                                     |
-| **IoT & Wireless Communication**  | LoRaWAN, Wireless Sensor Networks, IoT Gateway Solutions, Private 4G Network (Magma) |
-| **Security**                      | Secure communications, Token-based authentication (JWT)                         |
+| **Category** | **Technologies** |
+|---|---|
+| **AI, Agents & Security** | LangGraph (State Machines), Model Context Protocol (MCP), LLM Firewalls & Gateways, Policy Enforcement Engines, OWASP Top 10 Mitigation, LangSmith (AgentOps Tracking) |
+| **Languages** | C, C++, Python, Dart, Bash, SQL |
+| **Embedded Systems** | IoT devices, Sensor networks, LoRa gateway development, Raspberry Pi, BeagleBoard |
+| **Networking & Wireless** | TCP/IP, HTTP/HTTPS, LoRaWAN, SDN, OpenFlow, Private 4G Networks (Magma Orchestration) |
+| **Databases** | PostgreSQL (Multi-threaded drivers), MySQL, SQLite |
+| **Cloud, Devops & Containers** | Docker, Docker Compose, Firebase, GCP, Azure, CI/CD automated deployment pipelines |
+| **System Administration** | Linux Kernel troubleshooting, sandboxed execution environments, systemd service automation, VMware virtualization |
+| **Web & Frontend Frameworks**| Streamlit, FastAPI, Flask, Flutter (UI/UX), Svelte |
+| **Systems & Architecture** | Distributed Systems, Microservices, Content-Defined Chunking, Multi-threaded Network Fingerprinting |
 
+---
 
 ## ⚡ Fun Fact
 
-I’m a fan of pushing boundaries—whether it’s in the lab or trying out new software frameworks.
+I’m a fan of pushing boundaries—whether it’s keeping code 100% local for absolute privacy, handling an uninterruptible process lock in an Ubuntu kernel, or scoring a goal on the football field.
+
+---
 
 ## 🤝 Connect with Me
-- [LinkedIn](https://www.linkedin.com/soubhik_baral)
-- [Website](https://repells.com)
+* **LinkedIn:** [linkedin.com/in/soubhik_baral](https://www.linkedin.com/soubhik_baral)
+* **Website:** [repells.com](https://repells.com)
